@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d97cddda53972840c884b9d5a5045daf",
+    "content-hash": "2f94fd953a35cb369071a2860250f056",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -845,6 +845,46 @@
                 "url"
             ],
             "time": "2017-03-20T17:10:46+00:00"
+        },
+        {
+            "name": "igorludgero/correios",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/igor_lm/igorludgero_correiosofflinem2.git",
+                "reference": "dcf914ece8cd993edad866284ad8457d1516df4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/igor_lm/igorludgero_correiosofflinem2/get/dcf914ece8cd993edad866284ad8457d1516df4e.zip",
+                "reference": "dcf914ece8cd993edad866284ad8457d1516df4e",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Igorludgero\\Correios\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Ludgero Miura",
+                    "email": "igor@igorludgero.com",
+                    "homepage": "https://www.igorludgero.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Módulo de integração dos Correios com o Magento 2.x",
+            "homepage": "http://ww.igorludgero.com/",
+            "time": "2018-01-26T21:53:45+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
